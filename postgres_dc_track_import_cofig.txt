@@ -1,0 +1,20 @@
+stg."dc_track_AC MAIN",AC_MAIN.csv
+stg."dc_track_AC Service",AC_Service.csv
+stg."dc_track_ATS",ATS.csv
+stg."dc_track_Battery",Battery.csv
+stg."dc_track_Battery Plant Bay",Battery_Plant_Bay.csv
+stg."dc_track_BDFB",BDFB.csv
+stg."dc_track_BDFB Panels",BDFB_Panels.csv
+stg."dc_track_Capped Site",Capped_Site.csv
+stg."dc_track_Fuel Tank",Fuel_Tank.csv
+stg."dc_track_Generator",Generator.csv
+stg."dc_track_HVAC",HVAC.csv
+stg."dc_track_HVAC Zone",HVAC_Zone.csv
+stg."dc_track_PDSC",PDSC.csv
+stg."dc_track_Plant Panels",Plant_Panels.csv
+stg."dc_track_Plant",Plant.csv
+stg."dc_track_Plant Bay",Plant_Bay.csv
+stg."dc_track_Rectifiers",Rectifiers.csv
+stg."dc_track_Site info",Site_info.csv
+stg."dc_track_AC Main_cabinet",AC_Main_cabinet.csv
+stg."dc_track_Site-info Cabinet",Site_info_Cabinet.csv
