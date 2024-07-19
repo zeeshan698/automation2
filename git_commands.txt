@@ -1,0 +1,407 @@
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~
+$ pwd
+/c/Users/AHMSY8R
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~
+$ cd Documents
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ pwd
+/c/Users/AHMSY8R/Documents
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git pull https://gitlab.verizon.com/i85v_dftx/data_migration.git
+fatal: not a git repository (or any of the parent directories): .git
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ gill clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+bash: gill: command not found
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+fatal: destination path 'data_migration' already exists and is not an empty directory.
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+fatal: destination path 'data_migration' already exists and is not an empty directory.
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+fatal: destination path 'data_migration' already exists and is not an empty directory.
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+Cloning into 'data_migration'...
+warning: missing OAuth configuration for gitlab.verizon.com - see https://aka.ms/gcm/gitlab for more information
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/'
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git
+Cloning into 'data_migration'...
+warning: missing OAuth configuration for gitlab.verizon.com - see https://aka.ms/gcm/gitlab for more information
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/'
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://ahmsy8r@gitlab.verizon.com/i85v_dftx/data_migration.git
+Cloning into 'data_migration'...
+warning: missing OAuth configuration for gitlab.verizon.com - see https://aka.ms/gcm/gitlab for more information
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/'
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://ahmsy8r@gitlab.verizon.com/i85v_dftx/data_migration.git
+Cloning into 'data_migration'...
+warning: missing OAuth configuration for gitlab.verizon.com - see https://aka.ms/gcm/gitlab for more information
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/'
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://ahmsy8r@gitlab.verizon.com/i85v_dftx/data_migration.git
+Cloning into 'data_migration'...
+warning: missing OAuth configuration for gitlab.verizon.com - see https://aka.ms/gcm/gitlab for more information
+remote: Enumerating objects: 1306, done.
+remote: Counting objects: 100% (78/78), done.
+remote: Compressing objects: 100% (55/55), done.
+remote: Total 1306 (delta 43), reused 43 (delta 23), pack-reused 1228
+Receiving objects: 100% (1306/1306), 678.69 KiB | 1.71 MiB/s, done.
+Resolving deltas: 100% (891/891), done.
+git clone https://gitlab.verizon.com/i85v_dftx/data_migration.git --branch release/FE12-24.Wave3
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git clone https://ahmsy8r@gitlab.verizon.com/i85v_dftx/data_migration.git --branch syed_latest
+Cloning into 'data_migration'...
+remote: Enumerating objects: 1306, done.
+remote: Counting objects: 100% (78/78), done.
+remote: Compressing objects: 100% (55/55), done.
+remote: Total 1306 (delta 43), reused 43 (delta 23), pack-reused 1228
+Receiving objects: 100% (1306/1306), 678.69 KiB | 1.42 MiB/s, done.
+Resolving deltas: 100% (891/891), done.
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents
+$ cd cd
+ls -lt
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git status
+On branch DataMigration_AutomationScripts
+Your branch is up to date with 'origin/DataMigration_AutomationScripts'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fallout_src/
+        premigration_src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git add .
+warning: LF will be replaced by CRLF in fallout_src/mr_bdfb_fallouts.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_BDFB.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_ac_transfer_switches.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_bdfb_panel_breakers.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_bdfb_panelloads.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_building_info.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_dcplant.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_fueltank.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_generator.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_pdsc.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_plantbay.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in premigration_src/mr_rectifiers.sql.
+The file will have its original line endings in your working directory
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git statu
+On branch DataMigration_AutomationScripts
+Your branch is up to date with 'origin/DataMigration_AutomationScripts'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fallout_src/mr_ac_services_fallouts.sql
+        new file:   fallout_src/mr_ac_transfer_switches_fallouts.sql
+        new file:   fallout_src/mr_bdfb_fallouts.sql
+        new file:   fallout_src/mr_bdfb_panel_breakers_fallouts.sql
+        new file:   fallout_src/mr_bdfb_panelloads_fallouts.sql
+        new file:   fallout_src/mr_building_info_fallout.sql
+        new file:   fallout_src/mr_dc_breakers_fallouts.sql
+        new file:   fallout_src/mr_dcplant_fallouts.sql
+        new file:   fallout_src/mr_dcplantpanels_fallouts.sql
+        new file:   fallout_src/mr_fueltank_fallouts.sql
+        new file:   fallout_src/mr_generator_fallouts.sql
+        new file:   fallout_src/mr_pdsc_fallouts.sql
+        new file:   fallout_src/mr_rectifiers_fallouts.sql
+        new file:   premigration_src/mr_BDFB.sql
+        new file:   premigration_src/mr_BatteryCabinet.sql
+        new file:   premigration_src/mr_ac_main.sql
+        new file:   premigration_src/mr_ac_services.sql
+        new file:   premigration_src/mr_ac_transfer_switches.sql
+        new file:   premigration_src/mr_battery_strings.sql
+        new file:   premigration_src/mr_bdfb_panel_breakers.sql
+        new file:   premigration_src/mr_bdfb_panelloads.sql
+        new file:   premigration_src/mr_building_info.sql
+        new file:   premigration_src/mr_dc_breakers.sql
+        new file:   premigration_src/mr_dc_plant_panels.sql
+        new file:   premigration_src/mr_dcplant.sql
+        new file:   premigration_src/mr_fueltank.sql
+        new file:   premigration_src/mr_generator.sql
+        new file:   premigration_src/mr_hvac.sql
+        new file:   premigration_src/mr_hvac_zone.sql
+        new file:   premigration_src/mr_ip_address_fallouts.sql
+        new file:   premigration_src/mr_pdsc.sql
+        new file:   premigration_src/mr_plantbay.sql
+        new file:   premigration_src/mr_rectifier_bay.sql
+        new file:   premigration_src/mr_rectifiers.sql
+        new file:   premigration_src/mr_site_info.sql
+        new file:   premigration_src/mr_site_resource.sql
+
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git commit -m "POWR-7851"
+[DataMigration_AutomationScripts 43c1ce2] POWR-7851
+ Committer: Ahmed <ahmsy8r@ad.vzwcorp.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 36 files changed, 17227 insertions(+)
+ create mode 100644 fallout_src/mr_ac_services_fallouts.sql
+ create mode 100644 fallout_src/mr_ac_transfer_switches_fallouts.sql
+ create mode 100644 fallout_src/mr_bdfb_fallouts.sqlgit 
+ create mode 100644 fallout_src/mr_bdfb_panel_breakers_fallouts.sql
+ create mode 100644 fallout_src/mr_bdfb_panelloads_fallouts.sql
+ create mode 100644 fallout_src/mr_building_info_fallout.sql
+ create mode 100644 fallout_src/mr_dc_breakers_fallouts.sql
+ create mode 100644 fallout_src/mr_dcplant_fallouts.sql
+ create mode 100644 fallout_src/mr_dcplantpanels_fallouts.sql
+ create mode 100644 fallout_src/mr_fueltank_fallouts.sql
+ create mode 100644 fallout_src/mr_generator_fallouts.sql
+ create mode 100644 fallout_src/mr_pdsc_fallouts.sql
+ create mode 100644 fallout_src/mr_rectifiers_fallouts.sqlcd
+ create mode 100644 premigration_src/mr_BDFB.sql
+ create mode 100644 premigration_src/mr_BatteryCabinet.sql
+ create mode 100644 premigration_src/mr_ac_main.sql
+ create mode 100644 premigration_src/mr_ac_services.sql
+ create mode 100644 premigration_src/mr_ac_transfer_switches.sql
+ create mode 100644 premigration_src/mr_battery_strings.sql
+ create mode 100644 premigration_src/mr_bdfb_panel_breakers.sql
+ create mode 100644 premigration_src/mr_bdfb_panelloads.sql
+ create mode 100644 premigration_src/mr_building_info.sql
+ create mode 100644 premigration_src/mr_dc_breakers.sql
+ create mode 100644 premigration_src/mr_dc_plant_panels.sql
+ create mode 100644 premigration_src/mr_dcplant.sql
+ create mode 100644 premigration_src/mr_fueltank.sql
+ create mode 100644 premigration_src/mr_generator.sql
+ create mode 100644 premigration_src/mr_hvac.sql
+ create mode 100644 premigration_src/mr_hvac_zone.sql
+ create mode 100644 premigration_src/mr_ip_address_fallouts.sql
+ create mode 100644 premigration_src/mr_pdsc.sql
+ create mode 100644 premigration_src/mr_plantbay.sql
+ create mode 100644 premigration_src/mr_rectifier_bay.sql
+ create mode 100644 premigration_src/mr_rectifiers.sql
+ create mode 100644 premigration_src/mr_site_info.sql
+ create mode 100644 premigration_src/mr_site_resource.sql
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git status
+On branch DataMigration_AutomationScripts
+Your branch is ahead of 'origin/DataMigration_AutomationScripts' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git push
+remote: You are not allowed to upload code.
+fatal: unable to access 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/': The requested URL returned error: 403
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config --global user.name "syed ahmed"
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config --global user.email "syed.ahmed5@verizon.com"
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config --global user.password "Zayaan@0130"
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git push
+remote: You are not allowed to upload code.
+fatal: unable to access 'https://gitlab.verizon.com/i85v_dftx/data_migration.git/': The requested URL returned error: 403
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/AHMSY8R/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=syed ahmed
+user.email=syed.ahmed5@verizon.com
+user.password=Zayaan@0130
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://ahmsy8r@gitlab.verizon.com/i85v_dftx/data_migration.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.DataMigration_AutomationScripts.remote=origin
+branch.DataMigration_AutomationScripts.merge=refs/heads/DataMigration_AutomationScripts
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git push
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (40/40), done.
+Writing objects: 100% (40/40), 109.09 KiB | 2.32 MiB/s, done.
+Total 40 (delta 15), reused 0 (delta 0), pack-reused 0
+remote:
+remote: View merge request for DataMigration_AutomationScripts:
+remote:   https://gitlab.verizon.com/i85v_dftx/data_migration/-/merge_requests/28
+remote:
+To https://gitlab.verizon.com/i85v_dftx/data_migration.git
+   ad9b320..43c1ce2  DataMigration_AutomationScripts -> DataMigration_AutomationScripts
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$ git status
+On branch DataMigration_AutomationScripts
+Your branch is up to date with 'origin/DataMigration_AutomationScripts'.
+
+nothing to commit, working tree clean
+
+ahmsy8r@TSC0018ALKKWAAU MINGW64 ~/Documents/data_migration (DataMigration_AutomationScripts)
+$
